@@ -1,0 +1,14 @@
+<phpunit
+	backupGlobals="false"
+	bootstrap="./tests/bootstrap.php"
+	colors="true">
+	<testsuites>
+		<testsuite>
+			<directory suffix=".php">./tests/</directory>
+			<exclude>./tests/bootstrap.php</exclude>
+		</testsuite>
+	</testsuites>
+	<php>
+		<env name="WP_TEST_PATH" value="D:\\MAMP\\htdocs\\wp-dev\\tests\\phpunit\\" />
+	</php>
+</phpunit>

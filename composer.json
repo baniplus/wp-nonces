@@ -1,0 +1,15 @@
+{
+    "name": "vitalie/wp-nonces",
+    "description": "WordPress nonces class",
+    "type": "package",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "Vitalie",
+            "email": "vglodeanu@gmail.com"
+        }
+    ],
+    "require": {}
+}

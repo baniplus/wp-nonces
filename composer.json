@@ -8,5 +8,10 @@
 			"name": "Vitalie",
 			"email": "vglodeanu@gmail.com"
 		}
-	]
+	],
+	"autoload": {
+		"files": [
+			"src/class-wp-nonces.php"
+		]
+	}
 }
